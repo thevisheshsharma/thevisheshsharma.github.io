@@ -1,0 +1,81 @@
+body{
+    display:flex;
+}
+
+#aboutsec{
+    padding-left: 150;
+}
+.name {
+    padding-top: 50;
+    padding-right: 150;
+    font-family: 'Jura', serif;
+    font-size: 90px;
+}
+
+#tagline{
+    font-family: 'Baloo Da';
+    text-align: center;
+    font-size: 30;  
+    padding-bottom: 50;
+}
+
+#aboutme{
+    font-family: 'BioRhyme';
+    font-size: 15px;
+}
+.ingrey{
+    color:grey;
+}
+
+
+.copyright{
+    position: absolute;
+    line-height: 3em;
+    padding: inherit;
+    padding-left: 2em;
+    color: whitesmoke;
+    right: 0;
+    left:0;
+    bottom: 0;
+    background-color:darkslategrey;
+}
+
+.profilelinks{
+    position: absolute;
+    bottom: 3em;
+    right:3em;
+    height: auto;
+}
+.pic{
+    margin: 2px;
+    height: 35px;
+}
+
+.pic:hover{
+    margin:-10;
+    height:60px;
+}
+.ingreytag{
+   font-size: 30px; 
+}
+.ingreytag:hover{
+    color: darkblue;
+    font-size: 35px;
+}
+.resume{
+    line-height: 2em;
+    position: absolute;
+    right: 3em;
+    bottom:8em;
+    width: 20em;
+    background: white;
+    border-radius: 25;
+    font-family: "BioRhyme";
+    font-size: 15px;
+    font-weight: bold;
+}
+.resume:hover{
+    transition-duration: 0.5s;
+    box-shadow: 0 17px 50px 0 rgba(0,0,0,0.24);
+    color:darkblue;
+}
